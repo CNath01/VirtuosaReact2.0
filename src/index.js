@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/virtuosaReact/' element={<Inicio />} ></Route>
+      <Route path='/' element={<Inicio />} ></Route>
      
       <Route path='*' element={<Error404 />}></Route>
 
